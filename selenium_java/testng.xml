@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="alerts.FileUploadTests"/>
+      <class name="base.Base"/>
+      <class name="keys.SliderTests"/>
+      <class name="windows.WindowsTests"/>
+      <class name="frames.FrameTests"/>
+      <class name="dropdown.DropDownTests"/>
+      <class name="login.LoginTests"/>
+      <class name="wait.WaitTests"/>
+      <class name="alerts.AlertsTests"/>
+      <class name="forgotpassword.ForgotPasswordTests"/>
+      <class name="keys.KeysTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
